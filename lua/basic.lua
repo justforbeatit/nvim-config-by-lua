@@ -4,7 +4,14 @@
 
 vim.g.mapleader = ';'
 vim.g.nobackup = true
-vim.g.nowritebackup = true
+vim.cmd([[
+    filetype on
+    filetype plugin on
+    filetype indent on
+    let &t_ut=''
+    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+]])
 
 local function define_options(options)
     for _, val in pairs(options) do
@@ -15,12 +22,12 @@ end
 define_options({
     termguicolors = true,
     number = true,
-    ai = true,
-    smartindent = true,
     smartcase = true,
     wrap = true,
     ic = true,
     autochdir = true,
+    autoindent = true,
+    --smartindent = true,
     termguicolors = true,
     expandtab = true,
     showcmd = true,
@@ -38,7 +45,6 @@ define_options({
     encoding = 'utf-8',
     fileformats = 'unix',
     mouse = 'nv',
-    tabstop = 4,
     shiftwidth = 4,
     ts = 4,
     history = 800,
@@ -50,6 +56,6 @@ define_options({
     signcolumn = 'number',
     showtabline = 1,
     --coc recommend settings
-    updatetime = 300,
+    updatetime = 100,
     cmdheight = 2
 })
