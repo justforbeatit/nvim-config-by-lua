@@ -1,4 +1,4 @@
-vim.g.floaterm_title = ' ($1|$2)'
+vim.g.floaterm_title = 'ﲵ ($1|$2)'
 vim.g.floaterm_wintype = 'float'
 vim.g.floaterm_width = 0.85
 vim.g.floaterm_height = 0.85

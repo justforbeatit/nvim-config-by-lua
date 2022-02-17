@@ -3,7 +3,7 @@ Treesitter = {}
 function Treesitter.setup(config) 
     require('nvim-treesitter.configs').setup({
         --ensure_installed = "maintained",
-        ensure_installed = config.languages,
+        ensure_installed = config.parsers,
         sync_install = false,
         highlight = {
             enable = true,

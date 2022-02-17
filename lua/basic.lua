@@ -11,6 +11,10 @@ vim.cmd([[
     let &t_ut=''
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+    autocmd FileType vue set shiftwidth=2
+    autocmd FileType typescript set shiftwidth=2
+    autocmd FileType javascript set shiftwidth=2
+    autocmd FileType php set shiftwidth=4
 ]])
 
 local function define_options(options)
@@ -45,8 +49,8 @@ define_options({
     encoding = 'utf-8',
     fileformats = 'unix',
     mouse = 'nv',
-    shiftwidth = 4,
-    ts = 4,
+    shiftwidth = 2,
+    ts = 2,
     history = 800,
     scrolloff = 5,
     wildmode = 'full',

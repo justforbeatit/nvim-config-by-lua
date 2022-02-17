@@ -12,8 +12,7 @@ function Color.material()
     })
     require('lualine').setup{
         options = {
-            theme = 'material-nvim'
-            -- ... lualine config
+            theme = 'material-nvim',
         }
     }
 end
