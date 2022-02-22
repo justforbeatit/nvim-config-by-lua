@@ -17,6 +17,20 @@ function Color.material()
     }
 end
 
+function Color.tokyonight()
+    vim.g.tokyonight_style = "storm" -- or 'night'
+    vim.g.tokyonight_italic_comments = false
+    vim.g.tokyonight_italic_keywords = false
+    vim.g.tokyonight_transparent = true
+    vim.g.tokyonight_transparent_sidebar = true
+    vim.g.tokyonight_lualine_bold = true
+    require('lualine').setup {
+      options = {
+        theme = 'tokyonight'
+      }
+    }
+end
+
 function Color.setup(config)
     Color[config.color]()
     vim.cmd('colorscheme ' .. config.color)

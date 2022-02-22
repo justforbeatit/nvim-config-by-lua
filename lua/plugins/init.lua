@@ -6,6 +6,7 @@ function Plugins.setup(hook)
     vim.cmd([[
         call plug#begin('~/.config/nvim/plugged')
             Plug 'marko-cerovac/material.nvim'
+            Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
             Plug 'nvim-lualine/lualine.nvim'
             Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
             Plug 'kyazdani42/nvim-web-devicons'
