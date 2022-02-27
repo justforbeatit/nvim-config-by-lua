@@ -4,7 +4,7 @@ require('plugins').setup(function()
     require('nvim-autopairs').setup{}
     require('plugins.nvim-tree')
     require('plugins.nvim-treesitter').setup({
-        languages = {
+        parsers = {
             'vim',
             'lua',
             'javascript',
@@ -14,7 +14,9 @@ require('plugins').setup(function()
             'html',
             'css',
             'scss',
-            'json'
+            'json',
+            'comment',
+            'http'
         }
     })
     require('plugins.nvim-coc').setup({
@@ -32,7 +34,8 @@ require('plugins').setup(function()
         }
     })
     require('plugins.color').setup({
-        color = 'material', transparent = true
+        --color = 'material', transparent = true
+        color = 'tokyonight', transparent = true
     })
     require('plugins.nvim-gitblame')
     require('plugins.nvim-floaterm')
