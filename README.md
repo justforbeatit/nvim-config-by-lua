@@ -18,6 +18,6 @@
 
 Yet nothing provide
 
-> ## LICENSE
+> ## License
 
 MIT
