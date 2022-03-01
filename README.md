@@ -24,17 +24,17 @@
 
 - Many powerful plugins, such as:  
 
-  > floaterm
+  > [floaterm](https://github.com/voldikss/vim-floaterm)
 
   ![floaterm](https://user-images.githubusercontent.com/95928415/156148946-22d5956b-5f43-4681-928b-524397363eb1.gif)
 
 
-  > translator
+  > [translator](https://github.com/voldikss/coc-translator)
 
   ![translator](https://user-images.githubusercontent.com/95928415/156144927-2a9c9726-fb3d-4843-9970-ad91dbb004ce.gif)
 
 
-  > gitblame
+  > [gitblame](https://github.com/f-person/git-blame.nvim)
 
   ![gitblame](https://user-images.githubusercontent.com/95928415/156150184-553e9434-bebb-4bfa-a8a7-3c740a99ee8c.gif)
 
