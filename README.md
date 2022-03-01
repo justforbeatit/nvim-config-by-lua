@@ -16,7 +16,7 @@
 
 > ## How ?
 
-Yet nothing provide
+Yet nothing provided
 
 > ## License
 
