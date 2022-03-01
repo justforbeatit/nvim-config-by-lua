@@ -16,6 +16,8 @@
 
 > ## Why ?
 
+- Light-weight
+
 - Really fast
 
 - Many powerful plugins
