@@ -20,11 +20,15 @@
 
 - Really fast
 
-- Many powerful plugins
-
 - Highly customizable
 
-- ...
+- Many powerful plugins, such as:  
+
+  > floaterm
+
+  > translator
+
+  > gitblame
 
 > ## How ?
 
