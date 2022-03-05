@@ -9,7 +9,7 @@
 
 > ### This is my [nvim config](https://github.com/justforbeatit/nvim-config-by-lua) written by lua
 
-![demo](https://user-images.githubusercontent.com/95928415/155913674-26ddc0a1-baef-4797-b748-de377caedb3e.gif)
+![nvim](https://user-images.githubusercontent.com/95928415/156870274-ea782994-c0a7-41f5-94ef-ac31c735aaa9.gif)
 
 > ### Features
 
