@@ -2,6 +2,7 @@
 
 Plugins = {}
 
+--Plug 'StanAngeloff/php.vim'
 function Plugins.setup(hook)
     vim.cmd([[
         call plug#begin('~/.config/nvim/plugged')
@@ -14,14 +15,12 @@ function Plugins.setup(hook)
             Plug 'windwp/nvim-autopairs'
             Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install', 'for': ['markdown']  }
             Plug 'f-person/git-blame.nvim'
-            Plug 'StanAngeloff/php.vim'
             Plug 'voldikss/vim-floaterm'
             Plug 'romgrk/barbar.nvim'
             Plug 'preservim/tagbar'
             Plug 'neoclide/coc.nvim', {'branch': 'release'}
             Plug 'nvim-lua/plenary.nvim'
             Plug 'nvim-telescope/telescope.nvim'
-
         call plug#end()
     ]])
     hook(vim)

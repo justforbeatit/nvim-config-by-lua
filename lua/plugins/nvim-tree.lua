@@ -12,9 +12,10 @@ require('nvim-tree').setup({
   open_on_setup       = false,
   ignore_ft_on_setup  = {},
   auto_close          = false,
+  auto_reload_on_write = true,
   open_on_tab         = false,
   hijack_cursor       = true,
-  update_cwd          = true,
+  update_cwd          = false,
   update_to_buf_dir   = {
     enable = true,
     auto_open = true,
@@ -29,8 +30,8 @@ require('nvim-tree').setup({
     }
   },
   update_focused_file = {
-    enable      = false,
-    update_cwd  = false,
+    enable      = true,
+    update_cwd  = true,
     ignore_list = {}
   },
   system_open = {
@@ -39,7 +40,7 @@ require('nvim-tree').setup({
   },
   filters = {
     dotfiles = true,
-    custom = {}
+    custom = {'node_modules'}
   },
   git = {
     enable = true,

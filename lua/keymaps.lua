@@ -25,6 +25,7 @@ keymap('n', '<Leader>b', ':lua require("telescope.builtin").file_browser()<CR>',
 
 --for plugin coc
 keymap('n', '<Leader>r', ':CocRestart<CR>', options)
+keymap('n', '<Leader>e', '<Plug>(coc-diagnostic-next)', options)
 keymap('n', 'gd', '<Plug>(coc-definition)', options)
 keymap('n', 'gy', '<Plug>(coc-type-definition)', options)
 keymap('n', 'gi', '<Plug>(coc-implementation)', options)

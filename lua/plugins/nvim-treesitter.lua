@@ -7,7 +7,7 @@ function Treesitter.setup(config)
         sync_install = false,
         highlight = {
             enable = true,
-            disable = { 'php' }
+            --disable = { 'php' }
         },
         --Indentation based on treesitter for the = operator. NOTE: This is an experimental feature.
         indent = {

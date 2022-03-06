@@ -11,7 +11,7 @@
 
 ![nvim](https://user-images.githubusercontent.com/95928415/156870274-ea782994-c0a7-41f5-94ef-ac31c735aaa9.gif)
 
-> ### Features
+> ### Why ?
 
 - Light-weight
 

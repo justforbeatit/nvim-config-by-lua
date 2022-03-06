@@ -11,10 +11,12 @@ vim.cmd([[
     let &t_ut=''
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+    autocmd FileType html set shiftwidth=2
     autocmd FileType vue set shiftwidth=2
     autocmd FileType typescript set shiftwidth=2
     autocmd FileType javascript set shiftwidth=2
     autocmd FileType php set shiftwidth=4
+    set nobackup
 ]])
 
 local function define_options(options)
